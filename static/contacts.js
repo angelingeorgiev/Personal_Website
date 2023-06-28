@@ -1,28 +1,54 @@
-const username = document.getElementsByName("name");
-const email = document.getElementsByName("email");
-const message = document.getElementsByName("message");
-const submit = document.getElementsByClassName("contact__form")[0];
+// // Get data
+// const nameInput = document.querySelector("#name");
+// const email = document.querySelector("#email");
+// const message = document.querySelector("#message");
+// const success = document.querySelector("#success");
+// const errorNodes = document.querySelectorAll(".error");
 
-submit.addEventListener("submit", (e)=>{
-    e.preventDefault();
-    console.log("Clicked")
+// // Validate
+// function validateForm(){
 
-    let ebody = `
-    <b>Name: </b>${username.value}
-    <br>
-    <b>Email: </b>${email.value}
-    <br>
-    <b>Message: </b>${message.value}
-    `
-    //Email Code
-    Email.send({
-        SecureToken : "5464c2b6-4981-4093-8ef9-c6de10d06ff2",
-        To : 'georgiev.angelin@gmail.com',
-        From : "georgiev.angelin@gmail.com",
-        Subject : "Email sent from: " + email.value,
-        Body : ebody
-    }).then(
-      message => alert(message)
-    );
-})
+//     clearMessages();
+//     let errorFlag = false;
 
+//     if(nameInput.value.lenght  <1){
+//       errorNodes[0].innerText = "Name cannot be blank";
+//       nameInput.classList.add("error-border");
+//       errorFlag = true;
+//     }
+
+//     if(!emailIsValid(email.value)){
+//       errorNodes[0].innerText = "Invalid Email Address";
+//       nameInput.classList.add("error-border");
+//       errorFlag = true;
+
+//     }
+//     if(message.value.lenght < 1){
+//       errorNodes[2].innerText = "Please enter message.";
+//       message.classList.add("error-border");
+//       errorFlag = true;
+//     }
+
+//     if(!errorFlag){
+//       success.innerText = "Success"
+//     }
+// }
+
+// // Clear messages
+// function clearMessages(){
+//     for(let i = 0; i <errorNodes.length; i++){
+//       errorNodes[i].innerText = "";
+//     }
+//     nameInput.classList.remove("error-border");
+//     email.classList.remove("error-border")
+//     message.classList.remove("error-border")
+// }
+
+// // Check if email is valid
+// function emailIsValid(email){
+//     let pattern = /\S+@\S+\.\S+/;
+//     return pattern.test(email)
+// }
+
+
+//

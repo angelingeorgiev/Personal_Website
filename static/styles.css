@@ -289,7 +289,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px 50px;
-  padding: 100px 50px;
+  padding: 100px 40px;
 }
 
 .work__container .card{
@@ -393,6 +393,17 @@ img {
   margin-left: auto;
 }
 
+.error {
+  color: red;
+}
+
+.error-border {
+  border-bottom: 1px solid red;
+}
+
+#success {
+  color: #28A745;
+}
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);

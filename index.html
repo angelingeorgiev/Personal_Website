@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Angelin Georgiev | Junior Developer</title>
         <link rel="stylesheet" href="static/styles.css">
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -63,7 +62,13 @@
 
                 <div class="about__container">
                     <div>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p class="about__text">Hi There! <br> <br>
+                        I am a 20 year old student based in Bulgaria. In the beginnig of 2023 I decided to take up coding classes to expand my learning horizon. 
+                        Couple months later, here we are with me creaming my OWN website!
+                        <br> In my leasure time I am passionate about learning languages, reading books and hanging out with my amazing friends.
+                        <br>
+                        <br> Here you would find projects I have worked on and many more. 
+                        </p>           
                     </div>                                   
                 </div>
             </section>
@@ -114,15 +119,23 @@
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
-                <h2 class="section-title">Shoot me an email</h2>
+                <h2 class="section-title">Shoot me an Email</h2>
                 <div class="contact__container bd-grid">
-                    <form action="#" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input" name="name">
-                        <input type="email" placeholder="Email" class="contact__input" name="email">
-                        <textarea name="message" placeholder="Message" cols="30" rows="10" class="contact__input"></textarea>
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Your Name" class="contact__input" id="name">
+                        <small class="error"></small>
+
+                        <input type="email" placeholder="Your Email" class="contact__input" id="email">
+                        <small class="error"></small>
+
+                        <textarea id="message" placeholder="Message" cols="30" rows="10" class="contact__input"></textarea>
+                        <small class="error"></small>
+
                         <input type="submit" value="Submit" class="contact__button button">
+                        <p id="success"></p>
                     </form>
                 </div>
+                
             </section>
         </main>
 
@@ -133,7 +146,11 @@
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
         <!--===== MAIN JS =====-->
+<<<<<<< HEAD
         <script src="static/main.js"></script>
         <script src="static/contacts.js"></script>
     </body>
+=======
+        <script src="static/main.js"></script>    </body>
+>>>>>>> b2ca6c7 (Added bio and updated other stuff)
 </html>
