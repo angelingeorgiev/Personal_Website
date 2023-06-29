@@ -1,152 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Angelin Georgiev | Junior Developer</title>
-        <link rel="stylesheet" href="static/styles.css">
-        <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
-        <!--=====BOX ICONS=====-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
 
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelin Georgiev | Junior Developer</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
+    <!--=====BOX ICONS=====-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Welcome</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Angelin</span><br>Junior Developer
+                </h1>
+
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/angelin-georgiev-7729161a2/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/angelingeorgiev/" class="home__social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/angelingeorgiev" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="static/img/avatar.png"
+                            alt="The owner of the website's Memoji Image. Dressed in a black suit with Airpods on the years." />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container">
                 <div>
-                    <a href="#" class="nav__logo">Welcome</a>
-                </div>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-        <main class="l-main">
-
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Angelin</span><br>Junior Developer</h1>
-                    
-                </div>
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/angelin-georgiev-7729161a2/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/angelingeorgiev/" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://github.com/angelingeorgiev" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="static/img/avatar.png" alt="The owner of the website's Memoji Image. Dressed in a black suit with Airpods on the years."/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-                <div class="about__container">
-                    <div>
-                        <p class="about__text">Hi There! <br> <br>
-                        I am a 20 year old student based in Bulgaria. In the beginnig of 2023 I decided to take up coding classes to expand my learning horizon. 
-                        Couple months later, here we are with me creaming my OWN website!
-                        <br> In my leasure time I am passionate about learning languages, reading books and hanging out with my amazing friends.
+                    <p class="about__text">Hi There! <br> <br>
+                        I am a 20 year old student based in Bulgaria. In the beginnig of 2023 I decided to take up
+                        coding classes to expand my learning horizon.
+                        Couple months later, here we are with me creating my OWN website!
+                        <br> In my leasure time I am passionate about learning languages, reading books, going to the
+                        gym and hiking on the weekends.
                         <br>
-                        <br> Here you would find projects I have worked on and many more. 
-                        </p>           
-                    </div>                                   
+                        <br> Here you would find projects I have worked on and many more.
+                    </p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== WORK =====-->
-            <section class="work section bd-grid" id="work">
-                <h2 class="section-title">My Work</h2>
-                <div class="work__container">
-                    <div class="card">
-                        <div class="work__img">
-                            <img src="static/img/work1.jpg">
-                        </div>
-                        <div class="content__text">
-                            <h2>Content Name</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                               Voluptate cum expedita quo culpa tempora, assumenda?
-                            </p>
-                            <a href="">Read More</a>
-                        </div>
+        <!--===== WORK =====-->
+        <section class="work section bd-grid" id="work">
+            <h2 class="section-title">My Work</h2>
+            <div class="work__container">
+                <div class="card">
+                    <div class="work__img">
+                        <img src="static/img/work1.jpg">
                     </div>
-                    <div class="card">
-                        <div class="work__img">
-                            <img src="static/img/work2.jpg">
-                        </div>
-                        <div class="content__text">
-                            <h2>Content Name</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                               Voluptate cum expedita quo culpa tempora, assumenda?
-                            </p>
-                            <a href="">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="work__img">
-                            <img src="static/img/work3.jpg">
-                        </div>
-                        <div class="content__text">
-                            <h2>Content Name</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                               Voluptate cum expedita quo culpa tempora, assumenda?
-                            </p>
-                            <a href="">Read More</a>
-                        </div>
+                    <div class="content__text">
+                        <h2>Content Name</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Voluptate cum expedita quo culpa tempora, assumenda?
+                        </p>
+                        <a href="">Read More</a>
                     </div>
                 </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Shoot me an Email</h2>
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Your Name" class="contact__input" id="name">
-                        <small class="error"></small>
-
-                        <input type="email" placeholder="Your Email" class="contact__input" id="email">
-                        <small class="error"></small>
-
-                        <textarea id="message" placeholder="Message" cols="30" rows="10" class="contact__input"></textarea>
-                        <small class="error"></small>
-
-                        <input type="submit" value="Submit" class="contact__button button">
-                        <p id="success"></p>
-                    </form>
+                <div class="card">
+                    <div class="work__img">
+                        <img src="static/img/work2.jpg">
+                    </div>
+                    <div class="content__text">
+                        <h2>Content Name</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Voluptate cum expedita quo culpa tempora, assumenda?
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
                 </div>
-            </section>
-        </main>
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__copy">Built by me @ 2023 | Angelin Georgiev</p>
-        </footer>
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <!--===== MAIN JS =====-->
-<<<<<<< HEAD
-        <script src="static/main.js"></script>
-        <script src="static/contacts.js"></script>
-    </body>
-=======
-        <script src="static/main.js"></script>    </body>
->>>>>>> b2ca6c7 (Added bio and updated other stuff)
+                <div class="card">
+                    <div class="work__img">
+                        <img src="static/img/work3.jpg">
+                    </div>
+                    <div class="content__text">
+                        <h2>Content Name</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Voluptate cum expedita quo culpa tempora, assumenda?
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Shoot me an Email</h2>
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Your Name" class="contact__input" id="name">
+                    <small class="error"></small>
+
+                    <input type="email" placeholder="Your Email" class="contact__input" id="email">
+                    <small class="error"></small>
+
+                    <textarea id="message" placeholder="Message" cols="30" rows="10" class="contact__input"></textarea>
+                    <small class="error"></small>
+
+                    <input type="submit" value="Submit" class="contact__button button">
+                    <p id="success"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__copy">Built by me @ 2023 | Angelin Georgiev</p>
+    </footer>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== MAIN JS =====-->
+    <script src="static/main.js"></script>
+    <script src="static/contacts.js"></script>
+</body>
+
 </html>
