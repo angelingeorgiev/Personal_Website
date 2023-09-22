@@ -276,7 +276,7 @@ img {
 .about__container {
   row-gap: 2rem;
   text-align: center;
-  margin: 6rem 6rem;
+  margin: 4rem 4rem;
 }
 
 .about section {
@@ -524,10 +524,10 @@ img {
     width: 400px;
     bottom: 10%;
   }
-
+/* 
   .about__container {
     padding-top: 2rem;
-  }
+  } */
 
   .about__img img {
     width: 300px;
